@@ -12,5 +12,4 @@
 			
 	</section><!--/form-->
 	
-	
 <?php include('include/home/footer.php'); ?>
