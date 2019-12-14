@@ -1,6 +1,5 @@
 <?php include('db.php'); ?>
 <?php session_start(); ?>
-<?php //print_r($_SESSION['cart']); ?>
 <?php date_default_timezone_set('Asia/Manila'); ?>
 <?php
     $aj = new Data();
