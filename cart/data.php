@@ -38,10 +38,7 @@ if($q == 'addtocart'){
 }else if($q == 'verify'){
     $jim->verify();   
 }
-/*$_SESSION['cart'];
-$product = 'product101';
-$price ='300';
-$jim->addtocart($product, $price);*/
+
 class Shopping {
     function addtocart($product, $price, $qty){
         $cart = array(
@@ -58,7 +55,6 @@ class Shopping {
     
     function removefromcart($id){        
         $_SESSION['cart'][$id]['qty'] = 0;
-        //print_r($_SESSION['cart'][$id]['qty']);
         header("location:../cart.php");
     }
     

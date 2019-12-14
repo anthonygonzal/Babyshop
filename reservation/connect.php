@@ -4,10 +4,10 @@
 
 /* Database config */
 
-$db_host		= 'localhost';
-$db_user		= 'root';
-$db_pass		= '';
-$db_database	= 'babiesclothes'; 
+$db_host		= 'db5000248025.hosting-data.io';
+$db_user		= 'dbu105701';
+$db_pass		= 'Gonzalanthony22*';
+$db_database	= 'dbs242279'; 
 
 /* End config */
 
